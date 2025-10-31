@@ -47,3 +47,5 @@ console.log(index); // Prints 1
 const index2 = arr.findIndex((ele) => ele > 10);
 console.log(index2) // Prints -1
 ```
+
+So where `indexOf` is limited `findIndex` is not, because `findIndex` allows us to find and `return` the first index of and element that meets any condition we desire, whereas `indexOf` only will `return` the index of a specific value in an **array**.
